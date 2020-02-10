@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY public/ /usr/share/nginx/html
+COPY /var/lib/jenkins/workspace/prod-1/public/. /usr/share/nginx/html
